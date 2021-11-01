@@ -2,8 +2,6 @@ package test
 
 import (
 	"fmt"
-	"github.com/astaxie/beego/logs"
-	"github.com/go-common/v0.0.1/entity"
 	"github.com/go-common/v0.0.1/load"
 	"gorm.io/gorm"
 	"testing"
@@ -20,14 +18,7 @@ func TestLoadMinioConfig(t *testing.T) {
 func TestLoadMysqlConfig(t *testing.T) {
 	var ds *gorm.DB
 	ds = load.LoadMysqlConfig("../conf/mysql.conf")
-
-	var dlRecords = &entity.DlRecords{}
-	result := ds.Model(&entity.DlRecords{}).Where("`desc` != ?", "").Scan(dlRecords)
-	if result.Error != nil {
-		logs.Info(result.Error)
-		panic(result.Error)
-	}
-	fmt.Println(dlRecords)
+	fmt.Println(ds)
 }
 
 // 测试读取自定义数据源
