@@ -4,7 +4,7 @@ import (
 	"errors"
 	"github.com/astaxie/beego/logs"
 	"github.com/minio/minio-go/v6"
-	"github.com/go-common/v0.0.1/load"
+	"github.com/cuilan/go-common/load"
 	"regexp"
 	"strings"
 )

@@ -1,4 +1,4 @@
-module github.com/go-common/v0.0.1
+module github.com/cuilan/go-common
 
 go 1.16
 

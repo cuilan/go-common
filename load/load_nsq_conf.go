@@ -3,7 +3,7 @@ package load
 import (
 	"github.com/astaxie/beego/config"
 	"github.com/astaxie/beego/logs"
-	"github.com/go-common/v0.0.1/nsq"
+	"github.com/cuilan/go-common/nsq"
 )
 
 /*

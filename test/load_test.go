@@ -2,7 +2,7 @@ package test
 
 import (
 	"fmt"
-	"github.com/go-common/v0.0.1/load"
+	"github.com/cuilan/go-common/load"
 	"gorm.io/gorm"
 	"testing"
 )

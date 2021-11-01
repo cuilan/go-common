@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/go-common/v0.0.1/orm"
+	"github.com/cuilan/go-common/orm"
 	"testing"
 )
 

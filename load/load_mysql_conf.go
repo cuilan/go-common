@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/astaxie/beego/config"
 	"github.com/astaxie/beego/logs"
-	"github.com/go-common/v0.0.1/orm"
+	"github.com/cuilan/go-common/orm"
 	"gorm.io/gorm"
 )
 

@@ -3,8 +3,8 @@ package test
 import (
 	"fmt"
 	"github.com/astaxie/beego/logs"
-	"github.com/go-common/v0.0.1/load"
-	"github.com/go-common/v0.0.1/utils"
+	"github.com/cuilan/go-common/load"
+	"github.com/cuilan/go-common/utils"
 	"regexp"
 	"testing"
 	"time"
